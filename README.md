@@ -1,4 +1,3 @@
-
 # 📅 Sistema de Confirmação de Pacientes da Agenda
 
 ## Visão Geral
@@ -27,16 +26,19 @@ O sistema será utilizado por nutricionistas (ou secretárias) para otimizar a c
 ## Tecnologias Utilizadas
 
 ### Backend
+
 - Python + FastAPI
 - Google Calendar API
 - SQLite (modo local) ou PostgreSQL (modo produção)
 
 ### Frontend
+
 - React (ou Next.js, a depender do deploy)
 - TailwindCSS (para estilização rápida)
 - Axios (para consumo da API)
 
 ### Outros
+
 - APScheduler (atualizações diárias da agenda)
 - Link generator para WhatsApp Web: `https://wa.me/<DDD+NÚMERO>?text=<MENSAGEM_ENCODED>`
 
